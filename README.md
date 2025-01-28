@@ -1,30 +1,51 @@
-# ProductCatalogApi
-API basica com Net Core e Clean Architecture
+<h1>ProductCatalogApi</h1>
+    <p>API básica com .NET Core e Clean Architecture.</p>
 
-API RESTful simples para gerenciar um catálogo de produtos. 
-A API deve permitir operações de CRUD (Create, Read, Update, Delete) para produtos.
+    <div class="section">
+        <h2>Descrição</h2>
+        <p>API RESTful simples para gerenciar um catálogo de produtos. A API permite operações de CRUD (Create, Read, Update, Delete) para produtos.</p>
+        <p><strong>Obs:</strong> Produtos estáticos para teste.</p>
+    </div>
 
-Obs: Produtos estáticos para teste.
+    <div class="section">
+        <h2>Tecnologias Utilizadas</h2>
+        <ul>
+            <li>.NET Core/C#</li>
+        </ul>
+    </div>
 
-• Utilizar .NET Core/C#.
-• A API deve ter as seguintes endpoints:
-    o GET /products - Retorna a lista de produtos.
-    o GET /products/{id} - Retorna um produto específico pelo ID.
-    o POST /products - Cria um novo produto.
-    o PUT /products/{id} - Atualiza um produto existente pelo ID.
-    o DELETE /products/{id} - Deleta um produto pelo ID.
+    <div class="section">
+        <h2>Endpoints</h2>
+        <ul>
+            <li><code>GET /products</code> - Retorna a lista de produtos.</li>
+            <li><code>GET /products/{id}</code> - Retorna um produto específico pelo ID.</li>
+            <li><code>POST /products</code> - Cria um novo produto.</li>
+            <li><code>PUT /products/{id}</code> - Atualiza um produto existente pelo ID.</li>
+            <li><code>DELETE /products/{id}</code> - Deleta um produto pelo ID.</li>
+        </ul>
+    </div>
 
-• Um produto deve ter os seguintes atributos:
-    o Id (int)
-    o Name (string)
-    o Price (decimal)
-    o Description (string)
+    <div class="section">
+        <h2>Atributos do Produto</h2>
+        <ul>
+            <li><strong>Id</strong> (int)</li>
+            <li><strong>Name</strong> (string)</li>
+            <li><strong>Price</strong> (decimal)</li>
+            <li><strong>Description</strong> (string)</li>
+        </ul>
+    </div>
 
-• Correção e funcionamento da API.
-    Somente executar.
-    Caso necessário atualize os pacote Nuget.
+    <div class="section">
+        <h2>Execução da API</h2>
+        <p>Para executar a API, basta rodar o projeto. Caso necessário, atualize os pacotes NuGet.</p>
+    </div>
 
-• Clareza e organização do código.
-    Estrutura de código com Clean Architecture
+    <div class="section">
+        <h2>Organização do Código</h2>
+        <p>O código segue uma estrutura de Clean Architecture, garantindo clareza e organização.</p>
+    </div>
 
-• Uso adequado de boas práticas de desenvolvimento.
+    <div class="section">
+        <h2>Boas Práticas</h2>
+        <p>O projeto utiliza boas práticas de desenvolvimento, como Clean Architecture e padrões RESTful.</p>
+    </div>
