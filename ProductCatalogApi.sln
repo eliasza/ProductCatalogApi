@@ -17,13 +17,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C5FAFD94
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{FEAA016B-E10D-4A67-885B-011431F38E8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductCatalogApi.Application", "src\Application\ProductCatalogApi.Application\ProductCatalogApi.Application.csproj", "{FEC7A8BE-AA57-475E-9F63-F086571C3270}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductCatalogApi.Application", "src\Application\ProductCatalogApi.Application\ProductCatalogApi.Application.csproj", "{FEC7A8BE-AA57-475E-9F63-F086571C3270}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductCatalogApi.Domain", "src\Domain\ProductCatalogApi.Domain\ProductCatalogApi.Domain.csproj", "{31583230-2F92-4E3C-AEEE-2B7F10F18441}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductCatalogApi.Domain", "src\Domain\ProductCatalogApi.Domain\ProductCatalogApi.Domain.csproj", "{31583230-2F92-4E3C-AEEE-2B7F10F18441}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductCatalogApi.Infrastructure", "src\Infrastructure\ProductCatalogApi.Infrastructure\ProductCatalogApi.Infrastructure.csproj", "{5FE729AA-A7CA-41FD-A24A-50E2C79FE990}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductCatalogApi.Infrastructure", "src\Infrastructure\ProductCatalogApi.Infrastructure\ProductCatalogApi.Infrastructure.csproj", "{5FE729AA-A7CA-41FD-A24A-50E2C79FE990}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductCatalogApi.Presentation", "src\Presentation\ProductCatalogApi.Presentation\ProductCatalogApi.Presentation.csproj", "{FFD25242-BB4C-4BD5-9A7D-EB27A0CD724B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductCatalogApi.Presentation", "src\Presentation\ProductCatalogApi.Presentation\ProductCatalogApi.Presentation.csproj", "{FFD25242-BB4C-4BD5-9A7D-EB27A0CD724B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{F333A40C-C34D-495A-B332-0EA259571A89}"
+	ProjectSection(SolutionItems) = preProject
+		docs\Questionario.docx = docs\Questionario.docx
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
