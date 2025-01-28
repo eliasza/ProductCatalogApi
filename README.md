@@ -1,22 +1,17 @@
 # ProductCatalogApi
 API basica com Net Core e Clean Architecture
 
-API RESTful simples para gerenciar um catálogo de produtos. A API deve
-permitir operações de CRUD (Create, Read, Update, Delete) para produtos.
+API RESTful simples para gerenciar um catálogo de produtos. 
+A API deve permitir operações de CRUD (Create, Read, Update, Delete) para produtos.
 
 Obs: Produtos estáticos para teste.
 
 • Utilizar .NET Core/C#.
 • A API deve ter as seguintes endpoints:
-
     o GET /products - Retorna a lista de produtos.
-    
     o GET /products/{id} - Retorna um produto específico pelo ID.
-    
     o POST /products - Cria um novo produto.
-    
     o PUT /products/{id} - Atualiza um produto existente pelo ID.
-    
     o DELETE /products/{id} - Deleta um produto pelo ID.
 
 • Um produto deve ter os seguintes atributos:
