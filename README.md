@@ -8,6 +8,7 @@ Obs: Produtos estáticos para teste.
 
 • Utilizar .NET Core/C#.
 • A API deve ter as seguintes endpoints:
+
     o GET /products - Retorna a lista de produtos.
     
     o GET /products/{id} - Retorna um produto específico pelo ID.
